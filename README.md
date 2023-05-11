@@ -40,7 +40,7 @@ const char private_key[] = "GHlse+ybm/udXEvYs0EDpeUtNsOoKyJuEsQueIVUIEI=";   // 
 const char endpoint_address[] = "123.123.123.123";                           // Address of the endpoint peer
 const char public_key[] = "75HF4FoC+tkihfaoksdh43tjkhlqwmlqS5Hk7JYp0qN=";    // Public key of the endpoint peer
 const char presharedKey[] = "qo+ewLFqpmwslfavuEHqcPwaPAyHl+Gn+dgKhSzMQP9=";  // Pre-Shared Key
-uint16_t endpoint_port = 12345;  
+uint16_t endpoint_port = 12345;                                              // Port of the endpoint peer
 ```
 
 3. Compile and upload the sketch to your ESP32 board and wait for it to connect to Wi-Fi and Wireguard.
