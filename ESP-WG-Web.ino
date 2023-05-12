@@ -12,7 +12,7 @@ IPAddress local_ip(123, 123, 123, 123);                                      // 
 const char private_key[] = "GHlse+ybm/udXEvYs0EDpeUtNsOoKyJuEsQueIVUIEI=";   // Private key of the local interface
 const char endpoint_address[] = "123.123.123.123";                           // Address of the endpoint peer
 const char public_key[] = "75HF4FoC+tkihfaoksdh43tjkhlqwmlqS5Hk7JYp0qN=";    // Public key of the endpoint peer
-const char presharedKey[] = "qo+ewLFqpmwslfavuEHqcPwaPAyHl+Gn+dgKhSzMQP9=";  // Pre-Shared Key
+const char preshared_key[] = "qo+ewLFqpmwslfavuEHqcPwaPAyHl+Gn+dgKhSzMQP9="; // Pre-Shared Key
 uint16_t endpoint_port = 12345;                                              // Port of the endpoint peer
 
 // WireGuard class instance
